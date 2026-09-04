@@ -6,8 +6,8 @@ terraform {
     dynamodb_table = "lock-tf-eks"
     # dynamo key LockID
     # Params tekan from -backend-config when terraform init
-    #region = 
-    #profile = 
+    region = "eu-central-1"
+    profile = "student"
   }
 }
 
